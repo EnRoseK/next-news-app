@@ -1,9 +1,7 @@
-import NewsArticleEntry from "@/components/NewsArticleEntry";
 import NewsArticlesGrid from "@/components/NewsArticlesGrid";
 import { NewsArticle, NewsResponse } from "@/models/NewsArticle";
 import { GetServerSideProps } from "next";
 import Head from "next/head";
-import { Alert } from "react-bootstrap";
 
 interface BreakingNewsPageProps {
   newsArticles: NewsArticle[];
